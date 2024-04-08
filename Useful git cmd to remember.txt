@@ -1,0 +1,35 @@
+git clone <url>                     --> can be found under C:\Users\allie\...
+
+ls                                  --> to list the repository
+
+git add filename.ext                --> to add a file to the repository (local)
+
+git commit -m 'your message here'   --> commit to local branch
+
+git status                          --> when lost with all these commits
+
+git push                            --> push the files to the remote repository
+
+git pull                            --> to get all the files from the remote repository
+
+git remote add origin <url>         --> to upload a local repository to GitHub
+
+git remote -v                       --> verify if the git remote has worked
+
+git checkout -b nameNewBranch       --> create a new branch and -b for switching to that new branch
+
+git push --set-upstream oring newfeature --> in case the git push failed
+
+-- *** to merge the new branch into the main branch: *** --
+git checkout main
+git merge newfeature
+git commit
+git push                            --> check on the GitHub that it's merged properly
+-- 
+
+git branch -d newfeature            --> delete branch called newfeature
+
+git log                             --> get all the local_gas_station
+
+
+
