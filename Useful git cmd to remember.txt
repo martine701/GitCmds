@@ -20,6 +20,9 @@ git checkout -b nameNewBranch       --> create a new branch and -b for switching
 
 git push --set-upstream oring newfeature --> in case the git push failed
 
+git checkout newfeature
+git cherry-pick 0fc361c             --> will merge the commit 0fc361c from the main into the newfeature branch
+
 -- *** to merge the new branch into the main branch: *** --
 git checkout main
 git merge newfeature
