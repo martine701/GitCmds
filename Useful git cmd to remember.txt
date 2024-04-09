@@ -36,5 +36,9 @@ git branch -d newfeature            --> delete branch called newfeature
 
 git log                             --> get all the logs
 
+git clone --mirror                  --> creates a copy of a Git repository
+
+
+
 
 
